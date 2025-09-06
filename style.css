@@ -5,15 +5,16 @@
 }
 #parent{
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(geometry-bg.jpg);          /* i have to add image here */
+    background-image: url(geometry-bg.jpg);   
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    flex-wrap: wrap;
 }
 
 #calculator{
